@@ -1,1 +1,2 @@
-console.log("conflict");
+console.log("ignor");
+console.log("conflict2");
