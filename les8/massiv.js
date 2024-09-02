@@ -1,4 +1,9 @@
 let fruits = ['Apple', 'Banana', 'Cherry'];
+let firstFruit = fruits[0]; 
+
+
+let fruits2 = new Array("Apple", "Banana", "Orange");
+
     fruits.pop();
     fruits.push('Orange');
     fruits.shift();
@@ -28,3 +33,24 @@ let matrix = [
     ]
   ];
   
+
+
+ const sentence = "Це речення має кілька слів";
+const words = sentence.split(" ");
+console.log(words);
+
+
+const fruits3 = ["яблуко", "банан", "полуниця"];
+const fruitString = fruits.join(", ");
+console.log(fruitString);
+
+
+const numbers = [10, 20, 30, 40, 50];
+const index = numbers.indexOf(60);
+console.log(index); 
+
+const numbers3 = [1, 2, 3, 4, 5];
+const slicedArray = numbers.slice(2); 
+
+
+
